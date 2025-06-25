@@ -1,0 +1,46 @@
+:root {
+  --accent-orange: hsl(31, 77%, 52%);
+  --accent-cyan: hsl(184, 100%, 22%);
+  --accent-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+  --light-gray: #f2f2f2;
+  --spacing-sm: 8px;
+  --spacing-md: 24px;
+  --spacing-lg: 48px;
+  --border-radius: 8px;
+  --font-texts: "Lexend Deca", sans-serif;
+  --font-headings: "Big Shoulders Display", sans-serif;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+  font-family: var(--font-texts);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  background-color: var(--light-gray);
+  color: var(--very-light-gray);
+}
+
+.font-headings {
+  font-family: var(--font-headings);
+  font-weight: 700;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
