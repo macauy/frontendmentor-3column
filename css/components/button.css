@@ -8,3 +8,24 @@
   border-radius: 25px;
   transition: all 0.3s ease;
 }
+
+.btn:hover {
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+
+.btn:focus-visible {
+  outline: 1px dashed var(--white);
+  outline-offset: 4px;
+}
+
+.btn--orange {
+  color: var(--accent-orange);
+}
+.btn--cyan {
+  color: var(--accent-cyan);
+}
+.btn--dark-cyan {
+  color: var(--accent-dark-cyan);
+}

@@ -1,22 +1,5 @@
-/* Colores */
-.bg--orange {
-  background-color: var(--accent-orange);
-}
-.bg--cyan {
-  background-color: var(--accent-cyan);
-}
-.bg--dark-cyan {
-  background-color: var(--accent-dark-cyan);
-}
-.text--orange {
-  color: var(--accent-orange);
-}
-.text--cyan {
-  color: var(--accent-cyan);
-}
-.text--dark-cyan {
-  color: var(--accent-dark-cyan);
-}
+/* Colors */
+
 /* layout */
 body {
   display: grid;
@@ -45,9 +28,10 @@ body {
   text-align: center;
   transform: translateY(50px);
 }
-/* .attribution a {
-  color: hsl(228, 45%, 44%);
-} */
+
+.attribution a {
+  color: var(--accent-cyan);
+}
 
 @media (min-width: 768px) {
   .main-container {
