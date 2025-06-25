@@ -6,4 +6,5 @@
   font-size: 15px;
   line-height: 25px;
   border-radius: 25px;
+  transition: all 0.3s ease;
 }

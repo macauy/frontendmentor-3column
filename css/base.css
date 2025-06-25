@@ -5,8 +5,9 @@
   --transparent-white: hsla(0, 0%, 100%, 0.75);
   --very-light-gray: hsl(0, 0%, 95%);
   --light-gray: #f2f2f2;
+  --white: #ffffff;
   --spacing-sm: 8px;
-  --spacing-md: 24px;
+  --spacing-md: 32px;
   --spacing-lg: 48px;
   --border-radius: 8px;
   --font-texts: "Lexend Deca", sans-serif;
