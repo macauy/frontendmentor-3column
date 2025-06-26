@@ -33,7 +33,6 @@ body {
   font-size: 11px;
   text-align: center;
   margin-top: 2rem;
-  /* transform: translateY(50px); */
 }
 
 .attribution a {
@@ -44,5 +43,6 @@ body {
   .main-container {
     grid-template-columns: repeat(3, 1fr);
     max-width: 920px;
+    transform: translateY(20px);
   }
 }
