@@ -2,12 +2,15 @@
 
 /* layout */
 body {
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   width: 100%;
   min-height: 100vh;
   padding: 4rem 1.5rem;
+  position: relative;
 }
 
 .main-container {
@@ -23,10 +26,14 @@ body {
 }
 
 .attribution {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
   color: gray;
   font-size: 11px;
   text-align: center;
-  transform: translateY(50px);
+  margin-top: 2rem;
+  /* transform: translateY(50px); */
 }
 
 .attribution a {
